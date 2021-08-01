@@ -28,7 +28,7 @@
     
       **Usage**
     
-      ![Air_scan_use](https://github.com/gegocpebblehelmer/gegocpebblehelmer/raw/main/Linux/Pro_scan.png)
+      ![Air_scan_use](https://raw.githubusercontent.com/gegocpebblehelmer/gegocpebblehelmer/main/Linux/Pro_scan.png)
 
  ```bash
 
@@ -39,7 +39,7 @@
  Ip Local  : 10.60.10.114
 
  ```
-### ðŸŽ®for Cobalt Strike
+### Cobalt Strike
 
   * ***Windows***
 
@@ -53,7 +53,7 @@
 
 ```bash
 
-2021-08-01 - 11:32:18 UTC
+2021-08-01 - 11:33:25 UTC
 
 ```
 
