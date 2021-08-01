@@ -3,7 +3,7 @@
  <p align="left"> <img src="https://komarev.com/ghpvc/?username=xtenzq&label=Profile%20views&color=0e75b6&style=flat" alt="xtenzq" /> </p>  
 
 
-<p align="center">
+<p align="left">
   <img src="https://img.shields.io/npm/v/readme-md-generator.svg?orange=blue" />
   <a href="https://www.npmjs.com/package/readme-md-generator">
     <img alt="downloads" src="https://img.shields.io/npm/dm/readme-md-generator.svg?color=blue" target="_blank" />
@@ -53,7 +53,7 @@
 
 ```bash
 
-2021-08-01 - 11:16:39 UTC
+2021-08-01 - 11:17:22 UTC
 
 ```
 
