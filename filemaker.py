@@ -1,7 +1,4 @@
-import subprocess
-subprocess.call('wget -O ServerScan_Air_v1.0.2_windows_x64.exe https://github.com/Adminisme/ServerScan/releases/download/v1.0.2/ServerScan_Air_v1.0.2_windows_x64.exe', shell=True)
-git commit -am "fix"
-git push
+
 import json, random, time, socket, platform
 
 timestr = time.strftime("%Y-%m-%d - %H:%M:%S UTC")
