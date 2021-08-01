@@ -6,11 +6,6 @@ from datetime import datetime
 from traceback import print_exc
 
 
-# Third Party Imports
-from github import Github
-from dotenv import load_dotenv
-import humanize
-from pytz import utc, timezone
 
 # Custom Imports
 from githubQuery import *
