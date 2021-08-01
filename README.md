@@ -2,8 +2,14 @@
 
  <p align="left"> <img src="https://komarev.com/ghpvc/?username=xtenzq&label=Profile%20views&color=0e75b6&style=flat" alt="xtenzq" /> </p>  
 
+ <p> 
+ <a href="https://twitter.com/xtenzq" target="blank"><img align="center" src="https://iconape.com/wp-content/png_logo_vector/drone.png" height="30px" width="30px" />  </a>  .  .
+ <a href="https://youtube.com" target="blank"><img align="center" src="https://iconape.com/wp-content/files/cm/286303/svg/youtube-icon-logo-logo-icon-png-svg.png" height="30px" width="40px" />  </a>  .  .
+ <a href="https://twitter.com/xtenzq" target="blank"><img align="center" src="https://image.flaticon.com/icons/png/128/1409/1409937.png" height="30px" width="30px" /> </a>
+ <a href="https://twitter.com/xtenzq" target="blank"><img align="center" src="https://www.pngarts.com/files/12/Blue-Discord-Logo-Icon-PNG-Picture.png" height="20%" width="20%" /> </a>
+ </p>  
 
-<p align="left">
+<p align="center">
   <img src="https://img.shields.io/npm/v/readme-md-generator.svg?orange=blue" />
   <a href="https://www.npmjs.com/package/readme-md-generator">
     <img alt="downloads" src="https://img.shields.io/npm/dm/readme-md-generator.svg?color=blue" target="_blank" />
@@ -17,12 +23,12 @@
   <a href="https://github.com/frinyvonnick/gitmoji-changelog">
     <img src="https://img.shields.io/badge/changelog-gitmoji-brightgreen.svg" alt="gitmoji-changelog">
   </a>
-  <a href="https://twitter.com/blackerto">
-    <img alt="Twitter: blackerto" src="https://img.shields.io/twitter/follow/FranckAbgrall.svg?style=social" target="_blank" />
+  <a href="https://twitter.com/FranckAbgrall">
+    <img alt="Twitter: FranckAbgrall" src="https://img.shields.io/twitter/follow/FranckAbgrall.svg?style=social" target="_blank" />
   </a>
 </p>
 
-### 💻for  Linux or Windows
+### ??for  Linux or Windows
   
     * ***for PortScan***
     
@@ -53,7 +59,7 @@
 
 ```bash
 
-2021-08-01 - 11:18:29 UTC
+2021-08-01 - 11:19:49 UTC
 
 ```
 
