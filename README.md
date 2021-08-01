@@ -21,12 +21,13 @@
     <img alt="Twitter: blackerto" src="https://img.shields.io/twitter/follow/FranckAbgrall.svg?style=social" target="_blank" />
   </a>
 </p>
-
 ### 💻for  Linux or Windows
+
+  * #### 轻巧版
   
     * ***for PortScan***
     
-      **Usage**
+      **Usage：**
     
       ![Air_scan_use](https://raw.githubusercontent.com/gegocpebblehelmer/gegocpebblehelmer/main/Linux/Pro_scan.png)
 
@@ -53,7 +54,7 @@
 
 ```bash
 
-2021-08-01 - 11:33:25 UTC
+2021-08-01 - 11:34:38 UTC
 
 ```
 
