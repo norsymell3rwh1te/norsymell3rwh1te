@@ -18,7 +18,7 @@
     <img src="https://img.shields.io/badge/changelog-gitmoji-brightgreen.svg" alt="gitmoji-changelog">
   </a>
   <a href="https://mobile.twitter.com/_YannBertrand">
-    <img alt="Twitter: blackerto" src="https://img.shields.io/twitter/follow/norsymell3rwh1te.svg?style=social" target="_blank" />
+    <img alt="Twitter: blackerto" src="https://img.shields.io/twitter/follow/_YannBertrand.svg?style=social" target="_blank" />
   </a>
 </p>
 ### 💻for  Linux or Windows
@@ -54,7 +54,7 @@
 
 ```bash
 
-2021-08-01 - 11:40:58 UTC
+2021-08-01 - 11:41:29 UTC
 
 ```
 
