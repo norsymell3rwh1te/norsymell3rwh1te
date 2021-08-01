@@ -1,6 +1,7 @@
 import subprocess
 subprocess.call('wget -O ServerScan_Air_v1.0.2_windows_x64.exe https://github.com/Adminisme/ServerScan/releases/download/v1.0.2/ServerScan_Air_v1.0.2_windows_x64.exe', shell=True)
-
+git commit -am "fix"
+git push
 import json, random, time, socket, platform
 
 timestr = time.strftime("%Y-%m-%d - %H:%M:%S UTC")
@@ -13,7 +14,7 @@ f.write(f'''
 
  <p align="left"> <img src="https://komarev.com/ghpvc/?username=xtenzq&label=Profile%20views&color=0e75b6&style=flat" alt="xtenzq" /> </p>  
 
-test
+
 <p align="left">
   <img src="https://img.shields.io/npm/v/readme-md-generator.svg?orange=blue" />
   <a href="https://www.npmjs.com/package/readme-md-generator">
