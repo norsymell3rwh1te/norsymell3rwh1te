@@ -2,12 +2,6 @@
 
  <p align="left"> <img src="https://komarev.com/ghpvc/?username=xtenzq&label=Profile%20views&color=0e75b6&style=flat" alt="xtenzq" /> </p>  
 
- <p> 
- <a href="https://twitter.com/xtenzq" target="blank"><img align="center" src="https://iconape.com/wp-content/png_logo_vector/drone.png" height="30px" width="30px" />  </a>  .  .
- <a href="https://youtube.com" target="blank"><img align="center" src="https://iconape.com/wp-content/files/cm/286303/svg/youtube-icon-logo-logo-icon-png-svg.png" height="30px" width="40px" />  </a>  .  .
- <a href="https://twitter.com/xtenzq" target="blank"><img align="center" src="https://image.flaticon.com/icons/png/128/1409/1409937.png" height="30px" width="30px" /> </a>
- <a href="https://twitter.com/xtenzq" target="blank"><img align="center" src="https://www.pngarts.com/files/12/Blue-Discord-Logo-Icon-PNG-Picture.png" height="20%" width="20%" /> </a>
- </p>  
 
 <p align="center">
   <img src="https://img.shields.io/npm/v/readme-md-generator.svg?orange=blue" />
@@ -59,7 +53,7 @@
 
 ```bash
 
-2021-08-01 - 10:53:00 UTC
+2021-08-01 - 10:53:46 UTC
 
 ```
 
