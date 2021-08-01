@@ -17,8 +17,8 @@
   <a href="https://github.com/frinyvonnick/gitmoji-changelog">
     <img src="https://img.shields.io/badge/changelog-gitmoji-brightgreen.svg" alt="gitmoji-changelog">
   </a>
-  <a href="https://twitter.com/FranckAbgrall">
-    <img alt="Twitter: FranckAbgrall" src="https://img.shields.io/twitter/follow/FranckAbgrall.svg?style=social" target="_blank" />
+  <a href="https://twitter.com/blackerto">
+    <img alt="Twitter: blackerto" src="https://img.shields.io/twitter/follow/FranckAbgrall.svg?style=social" target="_blank" />
   </a>
 </p>
 
@@ -53,7 +53,7 @@
 
 ```bash
 
-2021-08-01 - 11:17:22 UTC
+2021-08-01 - 11:18:29 UTC
 
 ```
 
