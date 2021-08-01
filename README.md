@@ -10,10 +10,8 @@
  </p>  
 
 
+### 💻for  Linux or Windows
 
-### ðŸ’»for  Linux or Windows
-
-  * #### è½»å·§ç‰ˆ
   
     * ***for PortScan***
     
