@@ -25,18 +25,19 @@ f.write(f'''
   <a href="https://github.com/frinyvonnick/gitmoji-changelog">
     <img src="https://img.shields.io/badge/changelog-gitmoji-brightgreen.svg" alt="gitmoji-changelog">
   </a>
-  <a href="https://twitter.com/FranckAbgrall">
-    <img alt="Twitter: blackerto" src="https://img.shields.io/twitter/follow/FranckAbgrall.svg?style=social" target="_blank" />
+  <a href="https://mobile.twitter.com/_YannBertrand">
+    <img alt="Twitter: blackerto" src="https://img.shields.io/twitter/follow/_YannBertrand.svg?style=social" target="_blank" />
   </a>
 </p>
+### 💻for  Linux or Windows
 
-### ??for  Linux or Windows
+  * #### Scan Port
   
     * ***for PortScan***
     
-      **Usage**
+      **Usage：**
     
-      ![Air_scan_use](https://github.com/gegocpebblehelmer/gegocpebblehelmer/raw/main/Linux/Pro_scan.png)
+      ![Air_scan_use](https://raw.githubusercontent.com/gegocpebblehelmer/gegocpebblehelmer/main/Linux/Pro_scan.png)
 
  ```bash
 
@@ -47,7 +48,7 @@ f.write(f'''
  Ip Local  : {socket.gethostbyname(socket.gethostname())}
 
  ```
-### ðŸŽ®for Cobalt Strike
+### Cobalt Strike
 
   * ***Windows***
 
