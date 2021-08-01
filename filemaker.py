@@ -1,4 +1,12 @@
+import json, random, time, socket, platform
 
+timestr = time.strftime("%Y-%m-%d - %H:%M:%S UTC")
+
+
+
+f = open("./README.md", "w")
+
+f.write(f'''
 
  <p align="left"> <img src="https://komarev.com/ghpvc/?username=xtenzq&label=Profile%20views&color=0e75b6&style=flat" alt="xtenzq" /> </p>  
 
@@ -23,18 +31,18 @@
 
  ```bash
 
- Host Name : ws-640fa3f6-6357-4ac8-822c-2dd110afc17a
+ Host Name : {socket.gethostname()}
 
- platform  : Linux-5.4.0-1044-gke-x86_64-with-glibc2.29
+ platform  : {platform.platform()}
 
- Ip Local  : 10.60.10.114
+ Ip Local  : {socket.gethostbyname(socket.gethostname())}
 
  ```
 ### ðŸŽ®for Cobalt Strike
 
   * ***Windows***
 
-       	10.60.10.114 Cobalt Strike PortScanï¼ŒServerScan ã€‚
+       	{socket.gethostbyname(socket.gethostname())} Cobalt Strike PortScanï¼ŒServerScan ã€‚
 
       * ***for Service and Version Detection***
 
@@ -44,8 +52,10 @@
 
 ```bash
 
-2021-08-01 - 10:37:52 UTC
+{timestr}
 
 ```
 
- 
+ ''')
+
+f.close()
