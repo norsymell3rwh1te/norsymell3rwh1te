@@ -1,70 +1,89 @@
-import json, random, time, socket, platform
-
-timestr = time.strftime("%Y-%m-%d - %H:%M:%S UTC")
-
+from re import sub
+from base64 import b64decode
 
 
-f = open("./README.md", "w")
+# TODO: Make for each Section
 
-f.write(f'''
+class ReadmeGenerator():
 
- <p align="left"> <img src="https://komarev.com/ghpvc/?username=xtenzq&label=Profile%20views&color=0e75b6&style=flat" alt="xtenzq" /> </p>  
+    def __init__(self, readme):
+        self.readme = self.decodeREADME(readme)
 
+    def getREADME(self):
+        return self.readme
 
-<p align="left">
-  <img src="https://img.shields.io/npm/v/readme-md-generator.svg?orange=blue" />
-  <a href="https://www.npmjs.com/package/readme-md-generator">
-    <img alt="downloads" src="https://img.shields.io/npm/dm/readme-md-generator.svg?color=blue" target="_blank" />
-  </a>
-  <a href="https://github.com/kefranabg/readme-md-generator/blob/master/LICENSE">
-    <img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-yellow.svg" target="_blank" />
-  </a>
-  <a href="https://codecov.io/gh/kefranabg/readme-md-generator">
-    <img src="https://codecov.io/gh/kefranabg/readme-md-generator/branch/master/graph/badge.svg" />
-  </a>
-  <a href="https://github.com/frinyvonnick/gitmoji-changelog">
-    <img src="https://img.shields.io/badge/changelog-gitmoji-brightgreen.svg" alt="gitmoji-changelog">
-  </a>
-  <a href="https://twitter.com/FranckAbgrall">
-    <img alt="Twitter: blackerto" src="https://img.shields.io/twitter/follow/FranckAbgrall.svg?style=social" target="_blank" />
-  </a>
-</p>
+    def generateDailyStats(self, stats: str):
+        print("Generating Daily Section... ", end="")
+        START_COMMENT = '<!--START_SECTION_DAILY_COMMIT:readme-info-->'
+        END_COMMENT = '<!--END_SECTION_DAILY_COMMIT:readme-info-->'
+        daily_commit_in_readme = f"{START_COMMENT}\n{stats}\n{END_COMMENT}"
+        listReg = f"{START_COMMENT}[\\s\\S]+{END_COMMENT}"
 
-### 💻for  Linux or Windows
-  
-    * ***for PortScan***
-    
-      **Usage**
-    
-      ![Air_scan_use](https://github.com/gegocpebblehelmer/gegocpebblehelmer/raw/main/Linux/Pro_scan.png)
+        self.readme = sub(listReg, daily_commit_in_readme, self.readme)
+        print("Done")
 
- ```bash
+    def generateWeeklyStats(self, stats: str):
+        print("Generating Weekly Section... ", end="")
+        START_COMMENT = '<!--START_SECTION_WEEKLY_COMMIT:readme-info-->'
+        END_COMMENT = '<!--END_SECTION_WEEKLY_COMMIT:readme-info-->'
+        weekly_commit_in_readme = f"{START_COMMENT}\n{stats}\n{END_COMMENT}"
+        listReg = f"{START_COMMENT}[\\s\\S]+{END_COMMENT}"
 
- Host Name : {socket.gethostname()}
+        self.readme = sub(listReg, weekly_commit_in_readme, self.readme)
+        print("Done")
 
- platform  : {platform.platform()}
+    def generateProfileViewsStats(self, stats: str):
+        print("Generating Profile Views Section... ", end="")
+        START_COMMENT = '<!--START_SECTION_PROFILE_VIEWS:readme-info-->'
+        END_COMMENT = '<!--END_SECTION_PROFILE_VIEWS:readme-info-->'
+        profile_views_in_readme = f"{START_COMMENT}\n{stats}\n{END_COMMENT}"
+        listReg = f"{START_COMMENT}[\\s\\S]+{END_COMMENT}"
 
- Ip Local  : {socket.gethostbyname(socket.gethostname())}
+        self.readme = sub(listReg, profile_views_in_readme, self.readme)
+        print("Done")
 
- ```
-### ðŸŽ®for Cobalt Strike
+    def generateLinesOfCodeStats(self, stats: str):
+        print("Generating Lines Of Code Section... ", end="")
+        START_COMMENT = '<!--START_SECTION_LINES_OF_CODE:readme-info-->'
+        END_COMMENT = '<!--END_SECTION_LINES_OF_CODE:readme-info-->'
+        lines_of_code_in_readme = f"{START_COMMENT}\n{stats}\n{END_COMMENT}"
+        listReg = f"{START_COMMENT}[\\s\\S]+{END_COMMENT}"
 
-  * ***Windows***
+        self.readme = sub(listReg, lines_of_code_in_readme, self.readme)
+        print("Done")
 
-       	{socket.gethostbyname(socket.gethostname())} Cobalt Strike PortScanï¼ŒServerScan ã€‚
+    def generateMostUsedLanguage(self, stats: str):
+        print("Generating Lines Of Code Section... ", end="")
+        START_COMMENT = '<!--START_SECTION_LANGUAGE:readme-info-->'
+        END_COMMENT = '<!--END_SECTION_LANGUAGE:readme-info-->'
+        language_in_readme = f"{START_COMMENT}\n{stats}\n{END_COMMENT}"
+        listReg = f"{START_COMMENT}[\\s\\S]+{END_COMMENT}"
 
-      * ***for Service and Version Detection***
+        self.readme = sub(listReg, language_in_readme, self.readme)
+        print("Done")
 
-        Interact:
+    def generateTotalContributions(self, stats: str):
+        print("Generating Total Contributions Section... ", end="")
+        START_COMMENT = '<!--START_CONTRIBUTIONS:readme-info-->'
+        END_COMMENT = '<!--END_CONTRIBUTIONS:readme-info-->'
+        contributions_in_readme = f"{START_COMMENT}\n{stats}\n{END_COMMENT}"
+        listReg = f"{START_COMMENT}[\\s\\S]+{END_COMMENT}"
 
-        ![serverscan_windows](https://github.com/gegocpebblehelmer/gegocpebblehelmer/raw/main/Windows/Air_scan_probes_use.png)
+        self.readme = sub(listReg, contributions_in_readme, self.readme)
+        print("Done")
 
-```bash
+    def generateSayThanks(self):
+        START_COMMENT = '<!--START_SECTION_THANK_ME:readme-info-->'
+        END_COMMENT = '<!--END_SECTION_THANK_ME:readme-info-->'
+        stats = "Made with 🖤 by [Jainam Desai](https://th3c0d3br34ker.github.io)"
+        lines_of_code_in_readme = f"{START_COMMENT}\n{stats}\n{END_COMMENT}"
+        listReg = f"{START_COMMENT}[\\s\\S]+{END_COMMENT}"
 
-{timestr}
+        self.readme = sub(listReg, lines_of_code_in_readme, self.readme)
+        print("Thank You! ❤")
 
-```
-
- ''')
-
-f.close()
+    @staticmethod
+    def decodeREADME(data: str):
+        '''Decode the contents of old README'''
+        decoded_bytes = b64decode(data)
+        return str(decoded_bytes, 'utf-8')
